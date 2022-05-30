@@ -12,6 +12,7 @@ app.use(morgan("combined"));
 //Template engine
 app.engine("hbs", handlebars.engine({ extname: ".hbs" }));
 app.set("view engine", "hbs");
+// __dirname là path thư mục đến resources/views
 app.set("views", path.join(__dirname, "resources/views"));
 console.log(path.join(__dirname, "resources/views"));
 
