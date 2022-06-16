@@ -9,7 +9,7 @@ const methodOverride = require("method-override");
 const SortMiddleware = require("./app/middleware/SortMiddleware");
 const port = 3000;
 
-//connect mongodb sdkfhskf
+//connect mongodb
 db.connect();
 
 // lấy từ folder public đi vào
