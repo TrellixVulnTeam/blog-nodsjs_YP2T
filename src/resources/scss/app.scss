@@ -1,5 +1,9 @@
 @import "variables";
 h1 {
-  color: $red-color;
   font-size: 3rem;
+}
+
+.checkbox-select-all-option {
+  width: 120px;
+  margin: 0 16px;
 }

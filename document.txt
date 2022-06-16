@@ -1,0 +1,4 @@
+npm i mongoose-delete
+npm i mongoose-delete thủ thuật soft delete
+npm i mongoose-slug-generator giúp map name sang url tương ứng
+npm install --save mongoose-sequence
